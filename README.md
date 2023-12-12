@@ -1,17 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Tecnologias usadas no projeto</h1>
 
-## Getting Started
+<img src="https://img.shields.io/badge/Next_Auth-blue?logo=NextAuth&logoColor=f5f5f5">
+<img src="https://img.shields.io/badge/Next_13-blue?logo=Next_13&logoColor=f5f5f5">
+<img src="https://img.shields.io/badge/Typescript-blue?logo=Typescript&logoColor=f5f5f5">
+<br>
 
-First, run the development server:
+<h2>Objetivo</h2>
+<p>Entender o funcionamento dinâmico do Next 13 e suas funcionalidades.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Inicar projeto
+
 ```
-
 Abra [http://localhost:3000](http://localhost:3000) com seu navegador e veja o projeto rodando.
