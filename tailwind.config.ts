@@ -4,15 +4,27 @@ const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/components/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily:{
+        headeing: ['var(--font-josefins)'],
+        sans:['var(--font-nunito)']
       },
+      colors:{
+        red:"#B7585B",
+        "ligth-green":"#BCE4A8",
+        green:"#93EC67",
+        "gray-400":"#EDEAE1",
+        "gray-500":"#E0DCCB",
+        "gray-600":"#DDDBD2",
+        "gray-700":"#B5AC93",
+        "gray-800":"#6D6757",
+        "gray-900":"#423F37",
+        black:"#2C2924",
+      }
     },
   },
   plugins: [],
